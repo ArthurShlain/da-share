@@ -39,3 +39,10 @@ Paste `<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></s
 
 #### Using:
 Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many copies of this code as you need on the page.
+
+##### Available social networks:
+* Facebook — `da-fb`
+* VK (ВКонтакте) — `da-vk`
+* Twitter — `da-tw`
+* OK (Одноклассники) — `da-ok`
+* Google Plus — `da-gp`
