@@ -22,7 +22,7 @@ after `<head>` tag in your html page
 <br>~~
 Paste <br><br>
 ~~`<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>`<br>~~
-`<script type="text/javascript" src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`<br>
+**`<script type="text/javascript" src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`**<br>
 <br>
 before `</body>` tag in your html page
 
@@ -44,7 +44,7 @@ Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many 
 * [jQuery](https://github.com/jquery/jquery)
 
 #### Installation:
-Paste `<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`<br>
+Paste **`<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`**<br>
 after `jquery.min.js` script 
 
 #### Using:
