@@ -36,7 +36,7 @@ jQuery(function ($) {
                 url = window.location.href;
             }
             if (text === false) {
-                text = url;
+                text = document.title;
             }
             link = 'https://twitter.com/intent/tweet?url=';
             link += url;
