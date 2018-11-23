@@ -62,4 +62,4 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 <br><br>
 
 ## DEMO:
-https://danielkon.github.io/da-share
+https://danielkon.github.io/da-share/demo.html
