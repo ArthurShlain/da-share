@@ -49,15 +49,15 @@ after `jquery.min.js` script
 
 #### Using:
 Add a call to the `da_share` function on the `onclick` event, for example: <br>
-`<a href="#" onclick="da-share.fb();">Share</a>`<br>
-`<a href="#" onclick="da-share.tw();">Tweat</a>`<br>
+`<a href="#" onclick="da_share.fb();">Share</a>`<br>
+`<a href="#" onclick="da_share.tw();">Tweat</a>`<br>
 
 ##### Available social networks:
-* Facebook — `onclick="da-share.fb();"`
-* VK (ВКонтакте) — `onclick="da-share.vk();"`
-* Twitter — `onclick="da-share.tw();"`
-* OK (Одноклассники) — `onclick="da-share.ok();"`
-* Google Plus — `onclick="da-share.gp();"`
+* Facebook — `onclick="da_share.fb();"`
+* VK (ВКонтакте) — `onclick="da_share.vk();"`
+* Twitter — `onclick="da_share.tw();"`
+* OK (Одноклассники) — `onclick="da_share.ok();"`
+* Google Plus — `onclick="da_share.gp();"`
 
 <br><br>
 
