@@ -8,9 +8,9 @@ jQuery plugin for share buttons
 ### Easy Mode
 
 #### Requirements:
-* jQuery
-* Bootstrap 4
-* FontAwesome
+* [jQuery](jquery/jquery)
+* [Bootstrap 4](twbs/bootstrap)
+* [Font Awesome](FortAwesome/Font-Awesome)
 
 #### Installation:
 Paste <br><br>
@@ -41,7 +41,7 @@ Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many 
 ### Hard Mode
 
 #### Requirements:
-* jQuery
+* [jQuery](jquery/jquery)
 
 #### Installation:
 Paste `<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`<br>
