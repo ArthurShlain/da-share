@@ -11,12 +11,14 @@ https://danielkon.github.io/da-share
 * jQuery
 
 #### Installation:
-Paste `<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>` after `jquery.min.js` script 
+Paste <br>
+`<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>` <br>
+after `jquery.min.js` script 
 
 #### Using:
-Add a call to the `da_share` function on the `onclick` event, for example:
-`<a href="#" onclick="da-share.fb();">Share</a>
-<a href="#" onclick="da-share.tw();">Tweat</a>`
+Add a call to the `da_share` function on the `onclick` event, for example: <br>
+`<a href="#" onclick="da-share.fb();">Share</a>`<br>
+`<a href="#" onclick="da-share.tw();">Tweat</a>` <br>
 **Available social networks**
 * Facebook — `onclick="da-share.fb();"`
 * VK (ВКонтакте) — `onclick="da-share.vk();"`
