@@ -4,7 +4,7 @@ jQuery(function ($) {
 
     da_share = {
         fb: function (url = false) {
-            if (url === false) {
+            if (url == false) {
                 url = window.location.href;
             }
             link = 'https://facebook.com/share.php?u=';
@@ -12,65 +12,65 @@ jQuery(function ($) {
             da_share.popup(link);
         },
         vk: function (url = false, title = false, description = false, image = false) {
-            if (url === false) {
+            if (url == false) {
                 url = window.location.href;
             }
             link = 'https://vk.com/share.php?url=';
             link += url;
-            if (title !== false) {
+            if (title != false) {
                 link += '&title=';
                 link += title;
             }
-            if (description !== false) {
+            if (description != false) {
                 link += '&description=';
                 link += description;
             }
-            if (image !== false) {
+            if (image != false) {
                 link += '&image=';
                 link += image;
             }
             da_share.popup(link);
         },
         tw: function (url = false, text = false, hashtags = false, via = false) {
-            if (url === false) {
+            if (url == false) {
                 url = window.location.href;
             }
-            if (text === false) {
+            if (text == false) {
                 text = document.title;
             }
             link = 'https://twitter.com/intent/tweet?url=';
             link += url;
             link += '&text=';
             link += text;
-            if (hashtags !== false) {
+            if (hashtags != false) {
                 link += '&hashtags=';
                 link += hashtags;
             }
-            if (via !== false) {
+            if (via != false) {
                 link += '&via=';
                 link += via;
             }
             da_share.popup(link);
         },
         ok: function (url = false, title = false, image = false) {
-            if (url === false) {
+            if (url == false) {
                 url = window.location.href;
             }
-            if (title === false) {
+            if (title == false) {
                 title = url;
             }
             link = 'https://connect.ok.ru/offer?url=';
             link += url;
             link += '&title=';
             link += title;
-            if (image !== false) {
+            if (image != false) {
                 link += '&imageUrl=';
                 link += image;
             }
             da_share.popup(link);
         },
         gp: function (url = false) {
-            if (url === false) {
+            if (url == false) {
                 url = window.location.href;
             }
             link = 'https://plus.google.com/share?url=';
