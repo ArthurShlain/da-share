@@ -7,7 +7,7 @@ jQuery(function ($) {
             if (url == false) {
                 url = window.location.href;
             }
-            link = 'https://facebook.com/share.php?u=';
+            link = 'https://www.facebook.com/share.php?u=';
             link += url;
             da_share.popup(link);
         },
