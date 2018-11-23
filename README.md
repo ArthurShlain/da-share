@@ -8,9 +8,9 @@ jQuery plugin for share buttons
 ### Easy Mode
 
 #### Requirements:
-* [jQuery](https://github.com/jquery/jquery)
-* [Bootstrap 4](https://github.com/twbs/bootstrap)
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [Bootstrap 4](https://github.com/twbs/bootstrap)
+* [jQuery](https://github.com/jquery/jquery)
 
 #### Installation:
 ~~Paste <br><br>
