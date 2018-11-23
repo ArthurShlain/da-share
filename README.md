@@ -1,9 +1,9 @@
 # da-share
 jQuery plugin for share buttons
 
-## HOW TO:
-
 <br><br>
+
+## HOW TO:
 
 ### Easy Mode
 
