@@ -40,6 +40,9 @@ Paste **`<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>`** as m
 
 ### Hard Mode
 
+#### Advantages
+You can **customize** the visual style of the **buttons** yourself
+
 #### Requirements:
 * [jQuery](https://github.com/jquery/jquery)
 
