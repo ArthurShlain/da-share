@@ -11,6 +11,7 @@ jQuery plugin for share buttons
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 * [Bootstrap 4](https://github.com/twbs/bootstrap)
 * [jQuery](https://github.com/jquery/jquery)
+<br>
 
 #### Installation:
 ~~Paste<br><br>
@@ -29,6 +30,7 @@ Paste <br><br>
 before<br>
 `</body>`<br>
 tag in your html page
+<br>
 
 #### Using:
 Paste<br>
@@ -36,6 +38,7 @@ Paste<br>
 **`<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>`**<br>
 <br>
 as many copies of this code as you need on the html page.
+<br>
 
 ##### Available social networks:
 * Facebook — `da-fb`
@@ -50,9 +53,11 @@ as many copies of this code as you need on the html page.
 
 #### Advantages
 You can **customize** the visual style of the **buttons** yourself
+<br>
 
 #### Requirements:
 * [jQuery](https://github.com/jquery/jquery)
+<br>
 
 #### Installation:
 Paste<br>
@@ -61,12 +66,14 @@ Paste<br>
 <br>
 after <br>
 `jquery.min.js`
+<br>
 
 #### Using:
 Add a call to the `da_share` function on the `onclick` event, for example: <br>
 <br>
 **`<a href="#" onclick="da_share.fb();">Share</a>`<br>
 `<a href="#" onclick="da_share.tw();">Tweat</a>`<br>**
+<br>
 <br>
 
 ##### Available social networks:
@@ -80,3 +87,4 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 
 ## DEMO:
 <a href="https://danielkon.github.io/da-share/demo.html" target="_blank">https://danielkon.github.io/da-share/demo.html</a>
+<br>
