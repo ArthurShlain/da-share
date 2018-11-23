@@ -35,13 +35,14 @@ jQuery(function ($) {
             if (url == false) {
                 url = window.location.href;
             }
-            if (text == false) {
-                text = document.title;
-            }
             link = 'https://twitter.com/intent/tweet?url=';
             link += url;
             link += '&text=';
             link += text;
+            if (text != false) {
+                link += '&text=';
+                link += text;
+            }
             if (hashtags != false) {
                 link += '&hashtags=';
                 link += hashtags;
@@ -56,13 +57,12 @@ jQuery(function ($) {
             if (url == false) {
                 url = window.location.href;
             }
-            if (title == false) {
-                title = url;
-            }
             link = 'https://connect.ok.ru/offer?url=';
             link += url;
-            link += '&title=';
-            link += title;
+            if (title != false) {
+                link += '&title=';
+                link += title;
+            }
             if (image != false) {
                 link += '&imageUrl=';
                 link += image;
