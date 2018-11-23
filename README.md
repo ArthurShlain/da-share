@@ -1,8 +1,7 @@
 # da-share
 jQuery plugin for share buttons
 
-## DEMO:
-https://danielkon.github.io/da-share
+<hr>
 
 ## HOW TO:
 
@@ -22,15 +21,11 @@ Paste <br><br>
 after `<head>` of your html page
 <br>
 <br>
-<br>
 Paste <br><br>
 `<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>`<br>
 `<script type="text/javascript" src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`<br>
 <br>
 before `</body>` of your html page
-  
-
-
 
 #### Using:
 Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many copies of this code as you need on the html page.
@@ -42,6 +37,7 @@ Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many 
 * OK (Одноклассники) — `da-ok`
 * Google Plus — `da-gp`
 
+<hr>
 
 ### Hard Mode
 
@@ -63,3 +59,9 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 * Twitter — `onclick="da-share.tw();"`
 * OK (Одноклассники) — `onclick="da-share.ok();"`
 * Google Plus — `onclick="da-share.gp();"`
+
+<hr>
+
+
+## DEMO:
+https://danielkon.github.io/da-share
