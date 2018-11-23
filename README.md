@@ -2,4 +2,4 @@
 jQuery plugin for share buttons
 
 ## DEMO:
-<a href="https://danielkon.github.io/da-share/" target="_blank">https://danielkon.github.io/da-share/</a>
+https://danielkon.github.io/da-share
