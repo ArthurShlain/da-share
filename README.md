@@ -11,7 +11,7 @@ jQuery plugin for share buttons
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 * [Bootstrap 4](https://github.com/twbs/bootstrap)
 * [jQuery](https://github.com/jquery/jquery)
-<br>
+<br><br>
 
 #### Installation:
 ~~Paste<br><br>
@@ -30,7 +30,7 @@ Paste <br><br>
 before<br>
 `</body>`<br>
 tag in your html page
-<br>
+<br><br>
 
 #### Using:
 Paste<br>
@@ -38,7 +38,7 @@ Paste<br>
 **`<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>`**<br>
 <br>
 as many copies of this code as you need on the html page.
-<br>
+<br><br>
 
 ##### Available social networks:
 * Facebook — `da-fb`
@@ -53,11 +53,11 @@ as many copies of this code as you need on the html page.
 
 #### Advantages
 You can **customize** the visual style of the **buttons** yourself
-<br>
+<br><br>
 
 #### Requirements:
 * [jQuery](https://github.com/jquery/jquery)
-<br>
+<br><br>
 
 #### Installation:
 Paste<br>
@@ -66,7 +66,7 @@ Paste<br>
 <br>
 after <br>
 `jquery.min.js`
-<br>
+<br><br>
 
 #### Using:
 Add a call to the `da_share` function on the `onclick` event, for example: <br>
@@ -74,7 +74,7 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 **`<a href="#" onclick="da_share.fb();">Share</a>`<br>
 `<a href="#" onclick="da_share.tw();">Tweat</a>`<br>**
 <br>
-<br>
+<br><br>
 
 ##### Available social networks:
 * Facebook — `onclick="da_share.fb();"`
