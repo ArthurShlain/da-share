@@ -32,7 +32,9 @@ tag in your html page
 
 #### Using:
 Paste<br>
+<br>
 **`<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>`**<br>
+<br>
 as many copies of this code as you need on the html page.
 
 ##### Available social networks:
