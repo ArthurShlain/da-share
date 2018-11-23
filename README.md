@@ -1,8 +1,6 @@
 # da-share
 jQuery plugin for share buttons
 
-<hr>
-
 ## HOW TO:
 
 
@@ -37,7 +35,7 @@ Paste `<div class="da-share-html da-fb da-vk da-tw da-ok da-gp"></div>` as many 
 * OK (Одноклассники) — `da-ok`
 * Google Plus — `da-gp`
 
-<hr>
+
 
 ### Hard Mode
 
@@ -60,7 +58,7 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 * OK (Одноклассники) — `onclick="da-share.ok();"`
 * Google Plus — `onclick="da-share.gp();"`
 
-<hr>
+
 
 
 ## DEMO:
