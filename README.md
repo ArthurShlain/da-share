@@ -19,7 +19,7 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 `<a href="#" onclick="da-share.fb();">Share</a>`<br>
 `<a href="#" onclick="da-share.tw();">Tweat</a>`<br>
 
-##### Available social networks**
+##### Available social networks:
 * Facebook — `onclick="da-share.fb();"`
 * VK (ВКонтакте) — `onclick="da-share.vk();"`
 * Twitter — `onclick="da-share.tw();"`
