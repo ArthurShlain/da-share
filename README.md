@@ -48,7 +48,7 @@ You can **customize** the visual style of the **buttons** yourself
 
 #### Installation:
 Paste **`<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`**<br>
-script after `jquery.min.js` 
+script after `jquery.min.js` script
 
 #### Using:
 Add a call to the `da_share` function on the `onclick` event, for example: <br>
