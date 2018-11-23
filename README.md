@@ -56,7 +56,9 @@ You can **customize** the visual style of the **buttons** yourself
 
 #### Installation:
 Paste<br>
+<br>
 **`<script src="https://danielkon.github.io/da-share/jquery.da-share.js"></script>`**<br>
+<br>
 after <br>
 `jquery.min.js`
 
