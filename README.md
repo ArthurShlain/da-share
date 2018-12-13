@@ -76,11 +76,11 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 <br>
 
 ##### Available social networks:
-* Facebook — `onclick="da_share.fb( *url* );"`
-* VK (ВКонтакте) — `onclick="da_share.vk( *url*, *title*, *description*, *image* );"`
-* Twitter — `onclick="da_share.tw( *url*, *text*, *hashtags*, *via* );"`
-* OK (Одноклассники) — `onclick="da_share.ok( *url*, *title*, *image* );"`
-* Google Plus — `onclick="da_share.gp( *url* );"`
+* Facebook — `onclick="da_share.fb( url );"`
+* VK (ВКонтакте) — `onclick="da_share.vk( url, title, description, image );"`
+* Twitter — `onclick="da_share.tw( url, text, hashtags, via );"`
+* OK (Одноклассники) — `onclick="da_share.ok( url, title, image );"`
+* Google Plus — `onclick="da_share.gp( url );"`
 
 <br><br>
 
