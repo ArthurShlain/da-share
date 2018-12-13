@@ -8,15 +8,15 @@ jQuery(function ($) {
                 url = window.location.href;
             }
             link = 'https://www.facebook.com/share.php?u=';
-            link += url;
-            da_share.popup(link);
+            link += encodeURI(url);
+            da_share.popup(encodeURI(link));
         },
         vk: function (url = false, title = false, description = false, image = false) {
             if (url == false) {
                 url = window.location.href;
             }
             link = 'https://vk.com/share.php?url=';
-            link += url;
+            link += encodeURI(url);
             if (title != false) {
                 link += '&title=';
                 link += title;
@@ -29,14 +29,14 @@ jQuery(function ($) {
                 link += '&image=';
                 link += image;
             }
-            da_share.popup(link);
+            da_share.popup(encodeURI(link));
         },
         tw: function (url = false, text = false, hashtags = false, via = false) {
             if (url == false) {
                 url = window.location.href;
             }
             link = 'https://twitter.com/intent/tweet?url=';
-            link += url;
+            link += encodeURI(url);
             if (text != false) {
                 link += '&text=';
                 link += text;
@@ -49,14 +49,14 @@ jQuery(function ($) {
                 link += '&via=';
                 link += via;
             }
-            da_share.popup(link);
+            da_share.popup(encodeURI(link));
         },
         ok: function (url = false, title = false, image = false) {
             if (url == false) {
                 url = window.location.href;
             }
             link = 'https://connect.ok.ru/offer?url=';
-            link += url;
+            link += encodeURI(url);
             if (title != false) {
                 link += '&title=';
                 link += title;
@@ -65,15 +65,15 @@ jQuery(function ($) {
                 link += '&imageUrl=';
                 link += image;
             }
-            da_share.popup(link);
+            da_share.popup(encodeURI(link));
         },
         gp: function (url = false) {
             if (url == false) {
                 url = window.location.href;
             }
             link = 'https://plus.google.com/share?url=';
-            link += url;
-            da_share.popup(link);
+            link += encodeURI(url);
+            da_share.popup(encodeURI(link));
         },
         popup: function(link) {
             window.open(link,'_blank','toolbar=0,status=0,width=626,height=436');
