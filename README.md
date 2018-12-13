@@ -76,12 +76,26 @@ Add a call to the `da_share` function on the `onclick` event, for example: <br>
 <br>
 
 ##### Available social networks:
-* Facebook — `onclick="da_share.fb( url );"`
-* VK (ВКонтакте) — `onclick="da_share.vk( url, title, description, image );"`
-* Twitter — `onclick="da_share.tw( url, text, hashtags, via );"`
-* OK (Одноклассники) — `onclick="da_share.ok( url, title, image );"`
-* Google Plus — `onclick="da_share.gp( url );"`
-
+<table>
+  <tr>
+    <th>Social:</th><th>Call:</th><th>Optional parameters:</th>
+  </tr>
+  <tr>
+    <td>Facebook</td><td>`onclick="da_share.fb();"`</td><td>url</td>
+  </tr>
+  <tr>
+    <td>VK (ВКонтакте)</td><td>`onclick="da_share.vk();"`</td><td>url, title, description, image</td>
+  </tr>
+  <tr>
+    <td>Twitter</td><td>`onclick="da_share.tw();"`</td><td>url, text, hashtags, via</td>
+  </tr>
+  <tr>
+    <td>OK (Одноклассники)</td><td>`onclick="da_share.ok();"`</td><td>url, title, image</td>
+  </tr>
+  <tr>
+    <td>Google Plus</td><td>`onclick="da_share.gp();"`</td><td>url</td>
+  </tr>
+</table>
 <br><br>
 
 ## DEMO:
