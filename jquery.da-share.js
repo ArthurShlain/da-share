@@ -2,86 +2,52 @@ jQuery(function ($) {
 
     // FUCKING AWESOME CODE
 
-    da_share = {
-        fb: function (url = false) {
-            if (url == false) {
-                url = window.location.href;
-            }
-            link = 'https://www.facebook.com/share.php?u=';
+    var da_share = {
+        fb: function (url) {
+            url = url || window.location.href;
+            var link = 'https://www.facebook.com/share.php?u=';
             link += encodeURI(url);
             da_share.popup(encodeURI(link));
         },
-        vk: function (url = false, title = false, description = false, image = false) {
-            if (url == false) {
-                url = window.location.href;
-            }
-            link = 'https://vk.com/share.php?url=';
-            link += encodeURI(url);
-            if (title != false) {
-                link += '&title=';
-                link += title;
-            }
-            if (description != false) {
-                link += '&description=';
-                link += description;
-            }
-            if (image != false) {
-                link += '&image=';
-                link += image;
-            }
+        vk: function (url, title, description, image) {
+            url = url || window.location.href;
+            title = title || false;
+            description = description || false;
+            image = image || false;
+            var link = 'https://vk.com/share.php?url=' + encodeURI(url);
+            if (title !== false) link += '&title=' + title;
+            if (description !== false) link += '&description=' + description;
+            if (image !== false) link += '&image=' + image;
             da_share.popup(encodeURI(link));
         },
-        tw: function (url = false, text = false, hashtags = false, via = false) {
-            if (url == false) {
-                url = window.location.href;
-            }
-            link = 'https://twitter.com/intent/tweet?url=';
+        tw: function (url, text, hashtags, via) {
+            url = url || window.location.href;
+            text = text || false;
+            var link = 'https://twitter.com/intent/tweet?url=';
             link += encodeURI(url);
-            if (text != false) {
-                link += '&text=';
-                link += text;
-            }
-            if (hashtags != false) {
-                link += '&hashtags=';
-                link += hashtags;
-            }
-            if (via != false) {
-                link += '&via=';
-                link += via;
-            }
+            if (text !== false) link += '&text=' + text;
+            if (hashtags !== false) link += '&hashtags=' + hashtags;
+            if (via !== false) link += '&via=' + via;
             da_share.popup(encodeURI(link));
         },
-        ok: function (url = false, title = false, image = false) {
-            if (url == false) {
-                url = window.location.href;
-            }
-            link = 'https://connect.ok.ru/offer?url=';
-            link += encodeURI(url);
-            if (title != false) {
-                link += '&title=';
-                link += title;
-            }
-            if (image != false) {
-                link += '&imageUrl=';
-                link += image;
-            }
+        ok: function (url, title, image) {
+            url = url || window.location.href;
+            title = title || false;
+            image = image || false;
+            var link = 'https://connect.ok.ru/offer?url=' + encodeURI(url);
+            if (title !== false) link += '&title=' + title;
+            if (image !== false) link += '&imageUrl=' + image;
             da_share.popup(encodeURI(link));
         },
-        gp: function (url = false) {
-            if (url == false) {
-                url = window.location.href;
-            }
-            link = 'https://plus.google.com/share?url=';
-            link += encodeURI(url);
+        gp: function (url) {
+            url = url || window.location.href;
+            var link = 'https://plus.google.com/share?url=' + encodeURI(url);
             da_share.popup(encodeURI(link));
         },
         popup: function(link) {
             window.open(link,'_blank','toolbar=0,status=0,width=626,height=436');
         }
-    }
-
-
-
+    };
 
     // STUPID HTML TEMPLATE
 
@@ -112,8 +78,5 @@ jQuery(function ($) {
         da_share_elements.eq(index).html(da_share_html);
 
     });
-
-
-
 
 });
